@@ -1,0 +1,3 @@
+const printCurrentPage = () => {
+  window.print();
+};
