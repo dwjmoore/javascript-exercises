@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of a Triangle</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        This form finds the area of a triangle. Enter a value for each side.
+      </h1>
+
+      <br />
+
+      <div>
+        <div>
+          <label for="sideOne">Side 1</label>
+          <input type="text" id="sideOne" name="sideOne" required />
+        </div>
+        <div>
+          <label for="sideTwo">Side 2</label>
+          <input type="text" id="sideTwo" name="sideTwo" required />
+        </div>
+        <div>
+          <label for="sideThree">Side 3</label>
+          <input type="text" id="sideThree" name="sideThree" required />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="getArea();">Get Area</button>
+
+      <br />
+
+      <p id="area"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
