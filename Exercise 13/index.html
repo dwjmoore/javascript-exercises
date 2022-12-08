@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Webpage URL</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Enter a variable name and a string value for the variable.</h1>
+
+      <br />
+
+      <div>
+        <label for="myVar">Variable</label>
+        <input type="text" id="myVar" name="myVar" required />
+      </div>
+      <div>
+        <label for="myValue">Value</label>
+        <input type="text" id="myValue" name="myValue" required />
+      </div>
+
+      <br />
+
+      <button type="button" onclick="getFahrenheit();">Get Fahrenheit</button>
+
+      <br />
+
+      <p id="result"></p>
+
+      <p id="url"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
