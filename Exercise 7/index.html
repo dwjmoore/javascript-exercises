@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>January 1st Day of the Week</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="checkNewYearDay()">
+    <main>
+      <h1>
+        Enter a year after 2022 to see which day of the week January 1 falls on.
+      </h1>
+
+      <br />
+
+      <div>
+        <label for="year">Year</label>
+        <input type="text" id="year" name="year" required />
+      </div>
+
+      <br />
+
+      <button type="button" onclick="checkYear();">Check Year</button>
+
+      <br />
+
+      <p id="janOneDayOfWeek"></p>
+
+      <br />
+
+      <h1>
+        The following years between 2022 and 2050 have Jan. 1 on a Sunday:
+      </h1>
+      <p id="janOneOnSundays"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
