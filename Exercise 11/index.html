@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert Temperature</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="checkDaysToChristmas()">
+    <main>
+      <h1>Convert a tempurature to Fahrenheit or Celcius.</h1>
+
+      <br />
+
+      <div>
+        <label for="temp">Tempurature</label>
+        <input type="text" id="temp" name="temp" required />
+      </div>
+
+      <br />
+
+      <button type="button" onclick="getFahrenheit();">Get Fahrenheit</button>
+      <button type="button" onclick="getCelcius();">Get Celcius</button>
+
+      <br />
+
+      <p id="result"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
