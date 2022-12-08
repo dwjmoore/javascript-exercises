@@ -4,12 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Get Filename Extension</title>
+    <title>Get Sum</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <main>
-      
+      <h1>This program returns the sum of two integers you supply.</h1>
+      <h1>If the two values you provide are the same, then the result is triple their sum.</h1>
+
+      <br />
+
+      <div>
+        <div>
+          <label for="intOne">1st Integer</label>
+          <input type="text" id="intOne" name="intOne" required />
+        </div>
+        <div>
+          <label for="intTwo">2nd Integer</label>
+          <input type="text" id="intTwo" name="intTwo" required />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="getSum()">Submit</button>
+
+      <br />
+
+      <p id="result"></p>
     </main>
   </body>
   <script src="./js/main.js"></script>
