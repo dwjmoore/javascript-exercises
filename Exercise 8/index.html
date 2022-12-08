@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess a number from 1 to 10</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        I have thought of a number that is from 1 to 10. Guess what it is.
+      </h1>
+
+      <br />
+
+      <div>
+        <label for="guess">Your Guess: </label>
+        <input type="text" id="guess" name="guess" required />
+      </div>
+
+      <br />
+
+      <button type="button" onclick="checkGuess();">Check Guess</button>
+
+      <br />
+
+      <p id="computerNumber"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
