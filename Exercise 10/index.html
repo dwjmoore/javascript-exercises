@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiply or Divide</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="checkDaysToChristmas()">
+    <main>
+      <h1>Multiply or divide two numbers.</h1>
+
+      <br />
+      <div>
+        <div>
+          <label for="numberOne">1st Number</label>
+          <input type="text" id="numberOne" name="numberOne" required />
+        </div>
+        <div>
+          <label for="numberTwo">2nd Number</label>
+          <input type="text" id="numberTwo" name="numberTwo" required />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="multiply();">Multiply</button>
+      <button type="button" onclick="divide();">Divide</button>
+
+      <br />
+
+      <p>The result is:</p>
+      <p id="result"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
