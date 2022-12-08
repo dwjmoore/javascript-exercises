@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Are one of the numbers 50 or is the sum 50?</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        This progam checks your numbers and returns true if one of them is 50
+      </h1>
+      <h1>or if their sum is 50.</h1>
+
+      <br />
+
+      <div>
+        <div>
+          <label for="numOne">1st Number</label>
+          <input type="text" id="numOne" name="numOne" required />
+        </div>
+        <div>
+          <label for="numTwo">2nd Number</label>
+          <input type="text" id="numTwo" name="numTwo" required />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="checkNums()">Submit</button>
+
+      <br />
+
+      <p id="result"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
