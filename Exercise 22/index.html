@@ -9,7 +9,31 @@
   </head>
   <body>
     <main>
-      
+      <h1>
+        Enter a string. Then choose a position, starting with 0, at which to
+        remove a letter.
+      </h1>
+
+      <br />
+
+      <div>
+        <div>
+          <label for="userString">Enter a string: </label>
+          <input type="text" id="userString" name="userString" />
+        </div>
+        <div>
+          <label for="position">Enter a position</label>
+          <input type="text" id="position" name="position" />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="handleString()">Submit</button>
+
+      <br />
+
+      <p id="result"></p>
     </main>
   </body>
   <script src="./js/main.js"></script>
