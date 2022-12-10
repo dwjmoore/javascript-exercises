@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 38</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        Write a JavaScript program to check the total marks of a student in
+        various examinations. The student will get A+ grade if the total marks
+        are in the range 89..100 inclusive, if the examination is "Final-exam."
+        the student will get A+ grade and total marks must be greater than or
+        equal to 90. Return true if the student get A+ grade or false otherwise.
+      </h1>
+
+      <br />
+
+      <div>
+        <div>
+          <label for="totalGrade">Enter a number grade: </label>
+          <input type="text" id="totalGrade" name="totalGrade" />
+        </div>
+        <div>
+          <label for="finalExam">Final Exam? Enter Y or N: </label>
+          <input type="text" id="finalExam" name="finalExam" />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="handleGrade()">Submit</button>
+
+      <br />
+
+      <p id="result"></p>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
