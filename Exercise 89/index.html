@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 89</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        Write a JavaScript program to check whether it is possible to replace $
+        in a given expression x $ y = z with one of the four signs +, -, * or /
+        to obtain a correct expression.
+      </h1>
+
+      <br />
+
+      <div>
+        <div>
+          <label for="numOne">Number 1: </label>
+          <input type="text" id="numOne" name="numOne" />
+        </div>
+        <div>
+          <label for="numTwo">Number 2: </label>
+          <input type="text" id="numTwo" name="numTwo" />
+        </div>
+        <div>
+          <label for="userResult">Result: </label>
+          <input type="text" id="userResult" name="userResult" />
+        </div>
+      </div>
+
+      <br />
+
+      <button type="button" onclick="handleNumbers()">Submit</button>
+
+      <br />
+
+      <div id="result"></div>
+      <div id="resultAdd"></div>
+      <div id="resultSubtract"></div>
+      <div id="resultMultiply"></div>
+      <div id="resultDivide"></div>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
