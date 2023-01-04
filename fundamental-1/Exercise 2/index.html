@@ -4,24 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise 1</title>
+    <title>Exercise 2</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <main>
       <h1>
-        Write a JavaScript program to compare two objects to determine if the
-        first one contains equivalent property values to the second one.
+        Write a JavaScript program to copy a string to the clipboard.
       </h1>
 
       <br />
 
-      <button type="button" onclick="handleObjects()">Submit</button>
+      <div>
+        <div>
+          <label for="userString">String: </label>
+          <input type="text" id="userString" name="userString" />
+        </div>
+      </div>
 
       <br />
 
-      <div id="result1"></div>
-      <div id="result2"></div>
+      <button type="button" onclick="handleString()">Submit</button>
+
+      <br />
+
+      <div id="result"></div>
     </main>
   </body>
   <script src="./js/main.js"></script>
